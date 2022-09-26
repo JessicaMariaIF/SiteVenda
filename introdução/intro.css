@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(124, 45, 166), rgb(20, 33, 186));
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 90px ;
+    padding-right: 90px;
+}
+
+.background{
+    background-color: aliceblue;
+    opacity: 0.95;
+    padding-top: 10px;
+    padding-left: 40px ;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+.intro{
+    color: rgb(244, 128, 13);
+    text-align: center;
+    font-size: 43px;
+    font-style: italic;
+    font-family: Impact;
+    text-shadow: 2px 2px 4px #444444;
+}
+
+#Tittle{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Impact;
+    text-shadow: 2px 2px 4px #7a7a7a;
+}
+
+#Texto{
+    color: black;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justify;
+    font-family: Tahoma;
+}
+
+.fade-in-naruto {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+a:link, a:visited {
+    background-color: #8c43e6;
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+a:hover, a:active {
+    background-color: rgb(15, 71, 201);
+}
+
+.back{
+    background-color: #8c43e6;
+    padding-bottom: 5px;
+}
+
+.imglogo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#caixa input[type=search]{
+    position: relative;
+    left: 785px;
+    bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 50px;
+    min-width: 50px;
+    padding: 0 22px;
+}

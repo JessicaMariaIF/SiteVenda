@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(to bottom right, rgb(199, 13, 13), rgb(16, 16, 16));
+    background-repeat: no-repeat;
     padding-left: 13%;
     padding-right: 13%; 
 }
@@ -23,21 +24,35 @@ body{
     display: flex;
     flex-direction: row;
 }
+.stiFlex-itens{
+    display: flex;
+    flex-direction: row;
+}
 .imagem{
     padding-left: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 150px;
 }
-.imgIfal{
-    width: 270px;
-    margin-left: 100px;
-    padding-top: 10px;
+#container-img-ifal{
+    width: 100%;
+    position: relative;
 }
-.imgTecla{
-    width: 1120px;
-    opacity: 1;
+#container-img-ifal .imgIfal{
+    width: 250px;
+    margin-left: 50%;
 }
+#container-img{
+    width: 100%;
+    position: relative;
+}
+#container-img img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+
 .ButtonLinkTop:link, .ButtonLinkTop:visited {
     background-color: rgb(133, 13, 17);
     border: 10px;

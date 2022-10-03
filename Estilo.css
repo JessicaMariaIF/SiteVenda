@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(199, 13, 13), rgb(16, 16, 16));
+    padding-left: 13%;
+    padding-right: 13%; 
+}
+.Back{
+    background-color: rgb(133, 13, 17);
+}
+.back2{
+    background-color: rgb(33, 32, 34);
+    padding-bottom: 2px;
+}
+.back3{
+    background-color: white;
+    opacity: 0.98;
+}
+.divTopo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.stiFlex{
+    display: flex;
+    flex-direction: row;
+}
+.imagem{
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+}
+.imgIfal{
+    width: 270px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.imgTecla{
+    width: 1120px;
+    opacity: 1;
+}
+.ButtonLinkTop:link, .ButtonLinkTop:visited {
+    background-color: rgb(133, 13, 17);
+    border: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4px 30px;
+    text-align: justify;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.ButtonLinkTop:hover, .ButtonLinkTop:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.buttonsTop{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 12%;
+    width: 50px;
+    height: 40px;
+}
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #0000007d;
+    border-radius:10px;
+    width:400px;
+    height:32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+  
+#btnBusca{
+    color: aliceblue;
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width: 72px;
+    font-weight:bold;
+    background:rgb(33, 32, 34);
+}

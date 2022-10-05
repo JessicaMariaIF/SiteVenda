@@ -39,8 +39,6 @@ body{
     padding-bottom: 5px;
     width: 150px;
 }
-#container-img-ifal{width: 100%; position: relative;}
-#container-img-ifal .imgIfal{width: 250px; margin-left: 50%; background-color: #E0EEEE;}
 
 #container-img{width: 100%; position: relative;}
 #container-img img{width: 100%;}
@@ -103,7 +101,7 @@ img{width: 100%;}
     background-color:#E0EEEE;
     border:solid 2px #0000007d;
     border-radius:10px;
-    width:680px;
+    width:500px;
     height:32px;
     display: flex;
     flex-direction: row;
@@ -152,6 +150,16 @@ img{width: 100%;}
         opacity: 0;
     }
 }
+.textRecomend{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 10px;
+}
 .tittleItem{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
@@ -164,8 +172,8 @@ img{width: 100%;}
     align-items: center;
 }
 
-.itensLoja{
-    width: 300px; 
+.itensLoja_gabi2{
+    width: 250px; 
 }
 .ilc01 {
     color: rgb(0, 0, 0);
@@ -185,8 +193,12 @@ img{width: 100%;}
 }
 
 .itensLoja_cadeira2{
-    width: 350px;
+    width: 300px;
 }
+.itensLoja_cadeira1{
+    width: 250px;
+}
+
 .itensLoja_mouse2{
     width: 230px; 
 }
